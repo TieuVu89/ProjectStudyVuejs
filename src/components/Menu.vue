@@ -1,6 +1,6 @@
 <template>
   <div>
-    <sidebar>
+    
       <template  >
         <div class="p-3">          
           <nav class="mb-3">
@@ -8,13 +8,15 @@
               <b-nav-item><router-link to='/computed'>Computed</router-link></b-nav-item>
               <b-nav-item><router-link to='/watch'>Watch</router-link></b-nav-item>
               <b-nav-item><router-link to='/binding'>Binding</router-link></b-nav-item>
+              <b-nav-item><router-link to='/event'>Event</router-link></b-nav-item>
             </b-nav>
           </nav>
           
         </div>
+        <router-view />
       </template>
-    </sidebar>
-    <router-view />
+    
+    
   </div>
 </template>
  
