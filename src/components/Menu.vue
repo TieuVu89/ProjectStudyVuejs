@@ -9,6 +9,7 @@
               <b-nav-item><router-link to='/watch'>Watch</router-link></b-nav-item>
               <b-nav-item><router-link to='/binding'>Binding</router-link></b-nav-item>
               <b-nav-item><router-link to='/event'>Event</router-link></b-nav-item>
+              <b-nav-item><router-link to='/rendering'>Rendering</router-link></b-nav-item>
             </b-nav>
           </nav>
           
