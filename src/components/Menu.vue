@@ -1,20 +1,19 @@
 <template>
   <div>
-    <b-button v-b-toggle.sidebar-no-header class="btn-click">Menu</b-button>
-    <b-sidebar id="sidebar-no-header"  aria-labelledby="sidebar-no-header-title" no-header shadow>
-      <template v-slot:default="{ hide }" >
+    <sidebar>
+      <template  >
         <div class="p-3">          
           <nav class="mb-3">
             <b-nav vertical>
-              <b-nav-item><router-link to='/home'>Home</router-link></b-nav-item>
-              <b-nav-item><router-link to='/register'>Register</router-link></b-nav-item>
-              <b-nav-item><router-link to='/login'>Login</router-link></b-nav-item>
+              <b-nav-item><router-link to='/computed'>Computed</router-link></b-nav-item>
+              <b-nav-item><router-link to='/watch'>Watch</router-link></b-nav-item>
+              <b-nav-item><router-link to='/binding'>Binding</router-link></b-nav-item>
             </b-nav>
           </nav>
-          <b-button variant="primary" block @click="hide">Close</b-button>
+          
         </div>
       </template>
-    </b-sidebar>
+    </sidebar>
     <router-view />
   </div>
 </template>
@@ -22,11 +21,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+ 
+  
   }
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
