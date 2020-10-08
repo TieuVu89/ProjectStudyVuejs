@@ -11,6 +11,7 @@
               <b-nav-item><router-link to='/event'>Event</router-link></b-nav-item>
               <b-nav-item><router-link to='/rendering'>Rendering</router-link></b-nav-item>
               <b-nav-item><router-link to='/props'>Props</router-link></b-nav-item>
+              <b-nav-item><router-link to='/vuex'>Vuex</router-link></b-nav-item>
             </b-nav>
           </nav>
           

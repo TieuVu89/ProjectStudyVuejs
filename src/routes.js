@@ -5,6 +5,7 @@ import Redirect from './components/Redirect.vue';
 import Event from './components/Event.vue';
 import Rendering from './components/Rendering.vue';
 import ProfilePage from './components/props,emmitEvents/ProfilePage.vue';
+import Vuex from './components/Vuex.vue';
 
 const routes = [
     { path: '/computed', component: Computed },
@@ -14,5 +15,6 @@ const routes = [
     { path: '/event', component: Event },
     { path: '/rendering', component: Rendering },
     { path: '/props', component: ProfilePage },
+    { path: '/vuex', component: Vuex },
 ];
 export default routes;
